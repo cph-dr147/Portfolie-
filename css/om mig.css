@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 
-/* ===== MOBILE FIRST ===== */
+/* mobile first */
 
 .mig {
   font-family: "Quicksand";
@@ -20,7 +20,9 @@ body {
 
 /* overskrift */
 .mig h1 {
-  font-size: 3rem;
+  font-size: 4rem;
+
+  font-weight: 400;
 
   margin: 0;
 
@@ -58,7 +60,17 @@ body {
   filter: grayscale(100%);
 }
 
-/* INFO */
+h2 {
+  font-family: "Quicksand";
+
+  font-size: 3rem;
+
+  font-weight: 400;
+
+  margin: 0;
+}
+
+/* info */
 
 .Info {
   display: flex;
@@ -68,6 +80,16 @@ body {
   gap: 50px;
 
   padding: 40px;
+}
+
+.Info p {
+  font-family: "Quicksand";
+
+  line-height: 1.8;
+
+  font-size: 1.1rem;
+
+  font-weight: 400;
 }
 
 .Info section {
@@ -80,7 +102,7 @@ body {
   display: none;
 }
 
-/* ===== DESKTOP ===== */
+/* desktop */
 
 @media (min-width: 768px) {
   .mig {

@@ -53,3 +53,20 @@ a.projekt-link:link {
 a.projekt-link:visited {
   color: purple;
 }
+
+.wave {
+  position: absolute;
+
+  left: 0;
+  top: 0;
+
+  width: 35%;
+
+  opacity: 0.5;
+
+  z-index: 0;
+}
+
+.wave img {
+  width: 100%;
+}
