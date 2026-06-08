@@ -15,7 +15,7 @@ C 300 850,
 fill="none"/>
 </defs>
 
-<g stroke="#cfc9c5" stroke-width="1">
+<g stroke="#cfc9c5" stroke-width="3">
 
 <use href="#wave"/>
 <use href="#wave" transform="translate(8 0)"/>
