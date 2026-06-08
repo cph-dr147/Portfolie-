@@ -64,3 +64,20 @@ h1 {
     height: 2px;
   }
 }
+
+.wave {
+  position: absolute;
+
+  left: 0;
+  top: 0;
+
+  width: 35%;
+
+  opacity: 0.5;
+
+  z-index: 0;
+}
+
+.wave img {
+  width: 100%;
+}

@@ -1,0 +1,31 @@
+<svg width="500" height="1000" viewBox="0 0 500 1000"
+xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+<path id="wave"
+d="
+M 0 0
+C 200 300,
+400 250,
+350 550
+C 300 850,
+450 900,
+500 1000
+"
+fill="none"/>
+</defs>
+
+<g stroke="#cfc9c5" stroke-width="1">
+
+<use href="#wave"/>
+<use href="#wave" transform="translate(8 0)"/>
+<use href="#wave" transform="translate(16 0)"/>
+<use href="#wave" transform="translate(24 0)"/>
+<use href="#wave" transform="translate(32 0)"/>
+<use href="#wave" transform="translate(40 0)"/>
+<use href="#wave" transform="translate(48 0)"/>
+<use href="#wave" transform="translate(56 0)"/>
+
+</g>
+
+</svg>
