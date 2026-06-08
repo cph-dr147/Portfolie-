@@ -35,6 +35,8 @@ h1 {
   cursor: pointer;
 
   font-family: "Quicksand";
+
+  display: block;
 }
 
 .content {
