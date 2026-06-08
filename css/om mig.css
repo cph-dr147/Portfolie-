@@ -20,7 +20,7 @@ body {
 
 /* overskrift */
 .mig h1 {
-  font-size: 4rem;
+  font-size: 3rem;
 
   font-weight: 400;
 
@@ -42,11 +42,11 @@ body {
 /* om mig tekst */
 
 .about-text {
-  max-width: 500px;
+  max-width: 430px;
 }
 
 .about-text p {
-  margin-bottom: 40px;
+  margin-bottom: 25px;
 }
 
 /* lister */
@@ -54,7 +54,7 @@ body {
 .liste {
   display: flex;
 
-  gap: 60px;
+  gap: 40px;
 }
 
 .liste h3 {

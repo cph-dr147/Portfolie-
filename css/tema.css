@@ -10,6 +10,9 @@ h1 {
   font-size: 4rem;
 
   margin-bottom: 50px;
+
+  font-family: quicksand;
+  font-weight: 400;
 }
 
 .dropdown {
