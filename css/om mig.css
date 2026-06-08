@@ -32,18 +32,49 @@ body {
 }
 
 /* tekst */
-.mig div {
-  width: 100%;
-
-  max-width: 500px;
-}
 
 .mig p {
   line-height: 1.8;
 
   font-size: 1.1rem;
+}
 
-  max-width: none;
+/* om mig tekst */
+
+.about-text {
+  max-width: 500px;
+}
+
+.about-text p {
+  margin-bottom: 40px;
+}
+
+/* lister */
+
+.liste {
+  display: flex;
+
+  gap: 60px;
+}
+
+.liste h3 {
+  font-size: 1.3rem;
+
+  font-weight: 500;
+
+  margin-bottom: 15px;
+}
+
+.liste ul {
+  padding-left: 20px;
+
+  margin: 0;
+}
+
+.liste li {
+  margin-bottom: 10px;
+
+  line-height: 1.6;
 }
 
 /* billede */
@@ -102,6 +133,14 @@ h2 {
   display: none;
 }
 
+.jobliste {
+  padding-left: 20px;
+
+  line-height: 2;
+
+  font-family: "Quicksand";
+}
+
 /* desktop */
 
 @media (min-width: 768px) {
@@ -117,7 +156,7 @@ h2 {
     padding: 100px 80px;
   }
 
-  .mig div {
+  .about-text {
     max-width: 500px;
   }
 

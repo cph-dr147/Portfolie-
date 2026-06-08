@@ -1,7 +1,9 @@
+/* generel */
 body {
   margin: 0;
 }
 
+/* hero sektion */
 .hero {
   min-height: 80vh;
 
@@ -14,11 +16,14 @@ body {
   align-items: center;
 }
 
+/* h1 */
+
 h1 {
   font-size: 4rem;
 
   text-align: center;
 }
+/* navn, år og linje */
 
 .name {
   font-size: 2rem;
@@ -39,6 +44,8 @@ h1 {
 
   opacity: 0.4;
 }
+
+/* media query */
 
 @media (min-width: 768px) {
   h1 {
