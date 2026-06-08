@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+}
+
+main {
+  padding: 80px 40px;
+}
+
+/* Titel */
+
+h1 {
+  font-family: "Quicksand";
+
+  font-size: 4rem;
+  font-weight: 400;
+
+  margin-bottom: 80px;
+}
+
+/* Container */
+
+.tema-grid {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 20px;
+}
+
+/* Hver boks */
+
+.tema {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  background: #c4bcb1;
+
+  border: 1px solid rgba(0, 0, 0, 0.2);
+
+  padding: 24px 40px;
+
+  text-decoration: none;
+
+  color: black;
+
+  transition: 0.3s;
+}
+
+/* Tal */
+
+.tema h2 {
+  font-family: "Quicksand";
+  font-size: 3rem;
+  font-weight: 400;
+
+  margin: 0;
+}
+
+/* Tekst */
+
+.tema p {
+  font-family: "Quicksand";
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+
+  margin: 0;
+}
+
+/* Hover */
+
+.tema:hover {
+  transform: translateX(10px);
+}

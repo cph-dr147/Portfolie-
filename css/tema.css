@@ -1,0 +1,55 @@
+body {
+  background: #f8f5f0;
+}
+
+.tema-side {
+  padding: 100px 40px;
+}
+
+h1 {
+  font-size: 4rem;
+
+  margin-bottom: 50px;
+}
+
+.dropdown {
+  margin-bottom: 20px;
+}
+
+.toggle {
+  width: 100%;
+
+  padding: 25px;
+
+  background: #c4bcb1;
+
+  border: none;
+
+  text-align: left;
+
+  font-size: 1.5rem;
+
+  cursor: pointer;
+
+  font-family: "Quicksand";
+}
+
+.content {
+  display: none;
+
+  padding: 30px;
+
+  background: #c4bcb1;
+}
+
+.content.active {
+  display: block;
+}
+
+a.projekt-link:link {
+  color: black;
+}
+
+a.projekt-link:visited {
+  color: purple;
+}

@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+}
+
+.h2 {
+  font-family: "Quicksand";
+
+  font-size: 3rem;
+
+  font-weight: 400;
+}
+
+/* om mig + billede */
+.mig {
+  font-family: "Quicksand";
+  font-weight: 400;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  gap: 80px;
+
+  padding: 100px 40px;
+}
+
+/* tekst */
+.mig div {
+  max-width: 500px;
+}
+
+.mig p {
+  line-height: 1.8;
+}
+
+/* billede */
+.mig img {
+  width: 350px;
+
+  height: 500px;
+
+  object-fit: cover;
+
+  filter: grayscale(100%);
+}
+
+/* de tre bokse */
+.Info {
+  display: flex;
+
+  gap: 50px;
+
+  justify-content: space-between;
+
+  padding: 40px;
+}
+
+.Info section {
+  width: 300px;
+}

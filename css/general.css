@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  background: #f8f5f0;
+}
+
+/* Menu */
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+  padding: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-family: "Quicksand", sans-serif;
+}
