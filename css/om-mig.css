@@ -1,21 +1,45 @@
+/* general css for om mig */
+
 body {
   margin: 0;
+  font-family: "Quicksand", sans-serif;
+  color: black;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  margin: 0 0 24px 0;
+  line-height: 1.1;
+}
+
+p,
+li {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.8;
 }
 
 /* mobile first */
 
 .mig {
-  font-family: "Quicksand";
-
   display: flex;
 
   flex-direction: column;
 
   align-items: center;
 
-  gap: 40px;
+  gap: 60px;
 
   padding: 80px 30px;
+
+  max-width: 1300px;
+
+  margin: auto;
+
+  position: relative;
 }
 
 /* overskrift */
@@ -24,29 +48,27 @@ body {
 
   font-weight: 400;
 
-  margin: 0;
-
   border-bottom: 1px solid black;
 
+  padding-bottom: 8px;
+
   display: inline-block;
-}
-
-/* tekst */
-
-.mig p {
-  line-height: 1.8;
-
-  font-size: 1.1rem;
 }
 
 /* om mig tekst */
 
 .about-text {
-  max-width: 430px;
+  max-width: 500px;
 }
 
 .about-text p {
   margin-bottom: 25px;
+
+  text-align: justify;
+
+  text-wrap: pretty;
+
+  max-width: 540px;
 }
 
 /* lister */
@@ -54,15 +76,17 @@ body {
 .liste {
   display: flex;
 
-  gap: 40px;
+  gap: 80px;
+
+  flex-wrap: wrap;
 }
 
 .liste h3 {
   font-size: 1.3rem;
 
-  font-weight: 500;
+  font-weight: 400;
 
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .liste ul {
@@ -82,23 +106,13 @@ body {
 .mig img {
   width: 100%;
 
-  max-width: 350px;
+  max-width: 320px;
 
   height: auto;
 
   object-fit: cover;
 
   filter: grayscale(100%);
-}
-
-h3 {
-  font-family: "Quicksand";
-
-  font-size: 3rem;
-
-  font-weight: 400;
-
-  margin: 0;
 }
 
 /* info */
@@ -108,37 +122,44 @@ h3 {
 
   flex-direction: column;
 
-  gap: 50px;
+  gap: 80px;
 
-  padding: 40px;
+  padding: 100px 40px;
+
+  max-width: 1300px;
+
+  margin: auto;
 }
 
-.Info p {
-  font-family: "Quicksand";
+.Info p,
+.jobliste {
+  line-height: 2;
 
-  line-height: 1.8;
-
-  font-size: 1.1rem;
-
-  font-weight: 400;
+  font-size: 1rem;
 }
 
 .Info section {
-  width: 100%;
+  flex: 1;
+}
+
+.Info h3 {
+  font-size: 2.8rem;
+
+  font-weight: 400;
+
+  display: inline-block;
+
+  border-bottom: 1px solid black;
+
+  padding-bottom: 8px;
+
+  margin-bottom: 30px;
 }
 
 /* bølge */
 
 .wave {
   display: none;
-}
-
-.jobliste {
-  padding-left: 20px;
-
-  line-height: 2;
-
-  font-family: "Quicksand";
 }
 
 /* desktop */
@@ -163,7 +184,9 @@ h3 {
   .mig img {
     width: 350px;
 
-    height: 500px;
+    height: 460px;
+
+    transform: translateX(50px);
   }
 
   .Info {
