@@ -6,7 +6,7 @@ main {
   padding: 80px 40px;
 }
 
-/* Titel */
+/* titel */
 
 h1 {
   font-family: "Quicksand";
@@ -15,9 +15,11 @@ h1 {
   font-weight: 400;
 
   margin-bottom: 80px;
+
+  padding: 30px;
 }
 
-/* Container */
+/* container */
 
 .tema-grid {
   display: flex;
@@ -27,7 +29,7 @@ h1 {
   gap: 20px;
 }
 
-/* Hver boks */
+/* hver tema boks */
 
 .tema {
   display: flex;
@@ -49,7 +51,7 @@ h1 {
   transition: 0.3s;
 }
 
-/* Tal */
+/* tal på tema boks */
 
 .tema h2 {
   font-family: "Quicksand";
@@ -59,7 +61,7 @@ h1 {
   margin: 0;
 }
 
-/* Tekst */
+/* tekst */
 
 .tema p {
   font-family: "Quicksand";
@@ -69,11 +71,21 @@ h1 {
   margin: 0;
 }
 
-/* Hover */
+.intro {
+  font-family: "Quicksand";
+  font-size: 1rem;
+  max-width: 600px;
+  margin-bottom: 50px;
+  padding-left: 30px;
+}
+
+/* hover effekt*/
 
 .tema:hover {
   transform: translateX(10px);
 }
+
+/* wave effekt */
 
 .wave {
   position: absolute;

@@ -1,19 +1,48 @@
+/* baggrundsfarve */
+
 body {
   margin: 0;
   background: #f8f5f0;
 }
 
-/* Menu */
+/* menu / navigation */
+
+/* menu / navigation */
 
 nav {
   display: flex;
-  justify-content: flex-end;
-  gap: 2rem;
-  padding: 20px;
+
+  justify-content: center;
+
+  gap: 1rem;
+
+  padding: 20px 15px;
+
+  flex-wrap: wrap;
 }
 
 nav a {
   text-decoration: none;
+
   color: black;
+
   font-family: "Quicksand", sans-serif;
+
+  font-size: 1rem;
+}
+
+/* desktop */
+
+@media (min-width: 768px) {
+  nav {
+    justify-content: flex-end;
+
+    gap: 2rem;
+
+    padding: 20px 40px;
+  }
+
+  nav a {
+    font-size: 1.1rem;
+  }
 }

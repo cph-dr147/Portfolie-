@@ -1,11 +1,16 @@
+/* baggrundsfarve */
+
 body {
   background: #f8f5f0;
 }
+
+/* tema side */
 
 .tema-side {
   padding: 100px 40px;
 }
 
+/* overskrift */
 h1 {
   font-size: 4rem;
 
@@ -51,10 +56,6 @@ h1 {
   display: block;
 }
 
-a.projekt-link:link {
+a {
   color: black;
-}
-
-a.projekt-link:visited {
-  color: purple;
 }
